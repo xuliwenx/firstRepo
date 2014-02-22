@@ -21,6 +21,7 @@
 		9765746118B881C8005EE4E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9765744318B881C7005EE4E1 /* UIKit.framework */; };
 		9765746918B881C8005EE4E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9765746718B881C8005EE4E1 /* InfoPlist.strings */; };
 		9765746B18B881C8005EE4E1 /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765746A18B881C8005EE4E1 /* GitUseExampleTests.m */; };
+		9765747518B8866A005EE4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9765747418B8866A005EE4E1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9765746618B881C8005EE4E1 /* GitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9765746818B881C8005EE4E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9765746A18B881C8005EE4E1 /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		9765747418B8866A005EE4E1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				9765744E18B881C7005EE4E1 /* AppDelegate.h */,
 				9765744F18B881C7005EE4E1 /* AppDelegate.m */,
+				9765747418B8866A005EE4E1 /* Main.storyboard */,
 				9765745118B881C8005EE4E1 /* Main.storyboard */,
 				9765745418B881C8005EE4E1 /* ViewController.h */,
 				9765745518B881C8005EE4E1 /* ViewController.m */,
@@ -231,6 +234,7 @@
 				9765745818B881C8005EE4E1 /* Images.xcassets in Resources */,
 				9765744A18B881C7005EE4E1 /* InfoPlist.strings in Resources */,
 				9765745318B881C8005EE4E1 /* Main.storyboard in Resources */,
+				9765747518B8866A005EE4E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +464,7 @@
 				9765747018B881C8005EE4E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9765747118B881C8005EE4E1 /* Build configuration list for PBXNativeTarget "GitUseExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +473,7 @@
 				9765747318B881C8005EE4E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
